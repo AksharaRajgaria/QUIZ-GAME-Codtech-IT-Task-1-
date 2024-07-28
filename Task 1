@@ -1,0 +1,57 @@
+// A simple quiz game that presents multiple-choice questions to the
+user. The game keeps track of the user's score and provide feedback
+based on their answers.
+
+#include <stdio.h>
+
+int main (){
+int score = 0;
+
+// Question No.1
+printf("Welcome to the Quiz Game for Metallurgical Department!\n");
+printf("Question 1: What is the primary metal in bronze?\n");
+printf("A. Copper\nB. Tin\nC. Iron\nD. Zinc\n");
+
+char answer1 = 'A';
+printf( "Your answer: ");
+char userAnswer1;
+scanf(" %c", &userAnswer1);
+
+if (userAnswer1 == answer1) {
+printf( "Correct! \n" );
+score++;
+} else {
+printf( "Wrong! \n" );
+}
+// Question No.2
+
+printf("Question 2: What is the main component of stainless steel?\n");
+printf("A. Chromium\nB. Nickel\nC. Iron\nD. Manganese\n");
+char answer2 = 'A';
+printf( "Your answer: ");
+char userAnswer2;
+scanf(" %c", &userAnswer2);
+if (userAnswer2 == answer2) {
+printf( "Correct! \n" );
+score++;
+} else {
+printf( "Wrong! \n" );
+}
+// Question No.3
+
+printf("Qusetion 3: Which element is primarily used in the extraction of iron?\n");
+printf("A. Carbon\nB. Oxygen\nC. Silicon\nD. Sulfur\n");
+char answer3 = 'A';
+printf( "Your answer: ");
+char userAnswer3;
+scanf(" %c", &userAnswer3);
+if (userAnswer3 == answer3) {
+printf( "Correct! \n" );
+score++;
+} else {
+printf( "Wrong! \n" );
+}
+
+printf("Your score: %d out of 3\n", score) ; 
+return 0;
+}
