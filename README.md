@@ -19,7 +19,7 @@ Questions
 
 	1.	What is the primary metal in bronze?
 	•	A. Copper
-	•	B. Tin
+	•	B. Mg
 	•	C. Iron
 	•	D. Zinc
 	2.	What is the main component of stainless steel?
@@ -32,3 +32,5 @@ Questions
 	•	B. Oxygen
 	•	C. Silicon
 	•	D. Sulfur
+
+ 
